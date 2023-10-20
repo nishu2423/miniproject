@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    background: url(https://media.istockphoto.com/id/1198380802/vector/food-background-vegetables-seamless-pattern-healthy-eating-tomato-garlic-carrot-pepper.jpg?s=2048x2048&w=is&k=20&c=qEeXWpwIRCUhGmClYr_amDkoRVJ1KmOtJ0jumyN9STU=) no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+.container {
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(18, 199, 75, 0.63);
+    overflow: hidden;
+    width: 100%;
+    max-width: 1000px;
+    height: 525px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.forms-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+.signin-signup {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.title {
+    font-size: 2.2rem;
+    color: #444;
+    margin: 10px;
+}
+.input-field {
+    margin: 10px;
+    width: 80%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+.input-field i {
+    font-size: 1.5rem;
+    margin-left: 15px;
+    color: #444;
+}
+input {
+    flex: 1;
+    padding: 12px 15px;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+}
+.btn {
+    width: 80%;
+    padding: 15px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    background: #007BFF;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    margin: 10px;
+    cursor: pointer;
+}
+.btn.solid {
+    background: #0056b3;
+}
+.social-text {
+    font-size: 1rem;
+    margin: 10px;
+}
+
+
+.sbutton{
+    background: rgb(252, 252, 253); border:1px solid #ccc;
+    float: left;margin-left: 10px;border-radius:10px;
+    width:80px;
+}
+.limg{
+    width:35px; height:auto; padding:2px;
+
+}
+.panels-container {
+    position: relative;
+    background: greenyellow url(logo1.jpg) no-repeat;
+    background-size: 100%;
+   
+}
+.panel {
+    width: 50%;
+    padding: 2rem;
+    position: absolute;
+    transition: 0.5s;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    color: #fff;
+}
+.left-panel {
+    left: 0;
+}
+.right-panel { right: 0;
+}
+.content {
+    text-align: center;
+}
+.image {
+    width: 100%;
+    transition: 0.5s;
+}

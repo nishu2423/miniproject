@@ -1,0 +1,40 @@
+.product-card {
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+.product-card img {
+    max-width: 15%;
+}
+
+.product-card h3 {
+    margin: 10px 0;
+}
+.price {
+    font-size: 24px;
+    color: #333;
+}
+
+
+.popular-categories {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.category-card {
+    display: inline-block;
+    margin: 20px;
+}
+
+.category-card img {
+    max-width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.search{
+    border: 3px soild black;
+}
+

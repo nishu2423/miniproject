@@ -1,0 +1,116 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Basic styles for layout */
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #451515;
+    background-image: url(https://www.shutterstock.com/shutterstock/photos/1724193892/display_1500/stock-photo-food-supplies-for-the-period-of-quarantine-on-blue-background-set-of-grocery-items-from-canned-1724193892.jpg
+    );
+    color: #fff;
+    padding: 10px 0;
+}
+#finallogo{
+    width: 200px;
+    height: 50%;
+
+}
+nav ul {
+    list-style-type: none;
+    float: inline-end;
+    font-size: large;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    
+}
+
+.nav a {
+    color: #411313;
+    text-decoration: none;
+}
+
+.logo {
+    text-align: center;
+    margin-top: 20px;
+    color: #12a837;
+    font-size: 50px;
+    font-style: italic;
+    
+    h1:hover {
+        text-shadow: 0 1px 0 #227ade, 0 2px 0 #591673,
+        0 7px 0 #17202A, 0 8px 0 #17202A,
+        0 11px 0 #17202A, 0 12px 0 #17202A;
+     }
+  
+}
+
+.hero {
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 50px 0;
+    background: url() no-repeat;
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #555;
+}
+
+
+.popular-categories {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.category-card {
+    display: inline-block;
+    margin: 20px;
+}
+
+.category-card img {
+    max-width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #fff;
+}
